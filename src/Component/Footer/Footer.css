@@ -1,0 +1,90 @@
+.footer{
+    background: #27548A;
+    color: #F3F3E0;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.footer-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0px;
+}
+.navlogo h1{
+    text-align: center;
+}
+.footerpara{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    line-height: 1.5;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #F3F3E0;
+    text-decoration: none;
+    padding: 5px;
+}
+.quicklink, .customerservice, .socialmedia{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.quicklink p, .customerservice p, .socialmedia p{
+    font-weight: 600;
+}
+
+.para{
+    padding-top: 10px;
+}
+
+.sociallinks{
+    color: #F3F3E0;
+    padding-top: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+.link{
+    font-size: 1rem;
+}
+.copyright p{
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 10px;
+}
+@media screen and (min-width: 992px) {
+    .footer-container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .customerservice{
+        margin-top: -25px;
+    }
+    .socialmedia{
+        margin-top: -85px;
+    }
+    .quicklink p, .customerservice p, .socialmedia p{
+        font-size: 1.2rem;
+    }
+    .link{
+        font-size: 1.2rem;
+    }
+    .navlogo h1{
+        text-align: left;
+    }
+    .footerpara{
+        font-size: 1.2rem;
+        text-align: left;
+        margin-left: -2px;
+    }
+}

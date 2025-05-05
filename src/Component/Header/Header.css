@@ -1,0 +1,128 @@
+.header{
+    height: 60px;
+    background: #27548A;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 95%;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.navmenu{
+    position: absolute;
+    background: #27548A;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    top: 60px;
+    left: 110%;
+    right: -50%;
+    transition: 0.2s;
+    /* right: 50%; */
+}
+.navmenushow{
+    left: 50%;
+    transition: 0.2s;
+}
+
+.navmenu li{
+    list-style: none;
+
+}
+ .link{
+    text-decoration: none;
+    color: #F3F3E0;
+}
+.navlogo h1{
+    font-size: 1.6rem;
+    color: #F3F3E0;
+}
+.cart-login{
+    display: flex;
+    gap: 30px;
+}
+.sign-btn{
+    font-size: 1rem;
+    padding: 5px 10px;
+    border: 1px solid #F3F3E0 ;
+    border-radius: 4px;
+    background: #27548A ;
+    color: #F3F3E0 ;
+    font-weight: 600;
+    cursor: pointer;
+}
+.cart{
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 5px;
+    color: #F3F3E0;
+}
+.ham{
+    font-size: 1.3rem;
+    color: #F3F3E0;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+.cart-p{
+    position: absolute;
+    right: 180px;
+    top: 8px;
+    font-size: 14px;
+    padding: 1px 2px;
+    border-radius: 40%;
+    background: #F3F3E0;
+  }
+
+@media screen and (min-width: 992px) {
+    .navbar{
+        width: 80%;
+        margin: auto;
+    }
+    .navlogo h1{
+        font-size: 1.8rem;
+    }
+    .navmenu{
+        position: static;
+        display: flex;
+        flex-direction: row;
+        background: none;
+        gap: 40px;
+       
+    
+      }
+      .navmenu li{
+        font-weight: 500;
+
+      }
+      .navmenu li .link{
+        font-size: 1rem;
+      }
+
+      .ham{
+        display: none;
+      }
+      .cart-p{
+
+        right: 95px;
+      
+      }
+  }
+  

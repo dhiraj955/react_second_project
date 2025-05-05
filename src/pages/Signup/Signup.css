@@ -1,0 +1,105 @@
+
+.loginsignup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f8f9fb; 
+    padding: 20px;
+    
+
+ 
+  }
+  
+
+  .loginsignup-container {
+    width: 300px;
+    background-color: white;
+    padding: 30px 25px;
+    border-radius: 12px;
+    border: 1px solid grey;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+  }
+  
+
+  .loginsignup-container h1 {
+    text-align: center;
+    color: #27548a;
+    margin-bottom: 20px;
+  }
+  .loginsignup-fields{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .loginsignup-fields input[type="text"],
+  .loginsignup-fields input[type="email"],
+  .loginsignup-fields input[type="password"] {
+    width: 280px;
+    padding: 12px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 18px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  .loginsignup-fields input[type="email"]{
+    margin-left: 10px;
+    width: 300px;
+  }
+  .loginsignup-fields input:focus {
+    border-color: #27548a;
+  }
+  
+
+  .loginsignup-fields input[type="submit"] {
+    width: 90%;
+    padding: 12px;
+    background-color: #27548a;
+    color: #F3F3E0;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .loginsignup-fields input[type="submit"]:hover {
+    background-color: #1e3f6d;
+  }
+  
+
+  .loginsignup-login {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .loginsignup-login span {
+    color: #27548a;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .loginsignup-agree {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 13px;
+    color: #444;
+  }
+  
+  .loginsignup-agree input {
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+  }
+  

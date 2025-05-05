@@ -1,0 +1,53 @@
+.productdetail{
+    width: 95%;
+    margin: auto;
+}
+.product-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.product-right p, .reviews-section p{
+    padding: 5px;
+    font-size: 1.1rem;
+}
+.product-right h1, .reviews h1{
+    font-size: 25px;
+    text-align: center;
+    line-height: 1.5;
+}
+.parad{
+    line-height: 1.5;
+}
+span{
+    font-weight: 600;
+}
+.padding{
+    margin-bottom: 20px;
+}
+.reviewname{
+    margin-top: 20px;
+}
+.custom-hr{
+    height: 5px;
+    background: #27548A;
+    border-radius: 10px;
+}
+@media (min-width: 992px) {
+    .productdetail{
+        width: 80%;
+    }
+    .product-container{
+        flex-direction: row;
+        gap: 50px;
+    }
+    .product-right h1{
+        text-align: left;
+        font-size: 2rem;
+    }
+    .reviews h1{
+        font-size: 2rem;
+    }
+
+}
